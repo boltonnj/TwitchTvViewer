@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background: lightgreen;
+}
+header{
+font-family: 'Lobster', cursive;
+  font-size: 90px;
+}
+input[type=text] {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+ font-size: 15px;
+}
+img {
+  max-width: 25%;
+  max-height: 25%;
+  border-radius: 50%;
+  border: 5px solid darkblue;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.flex-item {
+  justify-content: space-around;
+}
+#featured{
+  font-size: 25px;
+}
+#results {
+  vertical-align: middle;
+}
+
+.row {
+  background: white;
+  margin: 15px auto;
+  padding: 5px;
+  line-height: 50px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.title {
+  
+}
+
+.description {
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Karla', sans-serif;
+  vertical-align: middle;
+  text-align: center;
+}
